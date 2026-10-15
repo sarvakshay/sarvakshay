@@ -1,75 +1,68 @@
+<!-- Header wave -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0E2A47,100:5CC8C8&height=180&section=header&text=Akshay%20Tayade&fontColor=ffffff&fontSize=52&animation=fadeIn&fontAlignY=35&desc=SDE%20%40%20Sarv%20%E2%80%A2%20Jaipur&descAlignY=58&descSize=18" width="100%"/>
 
-<!-- Typing SVG -->
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=4CAF50&center=true&vCenter=true&width=500&lines=Hi%2C+I'm+Akshay+Tayade;SDE+%40+Sarv;Working+on+SarvCrawl" alt="Typing SVG" />
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=800&color=5CC8C8&center=true&vCenter=true&width=600&lines=Building+SarvCrawl+at+Sarv;Web+crawling+%2B+data+pipelines;Shipping+AI+tooling+in+Jaipur" alt="Typing SVG"/>
+  </a>
 </p>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=sarvakshay&color=4CAF50" alt="profile views" />
+  <img src="https://komarev.com/ghpvc/?username=sarvakshay&color=0E2A47&style=flat-square&label=Profile+views" alt="profile views"/>
+  <a href="mailto:akshay.a@sarv.com"><img src="https://img.shields.io/badge/Email-akshay.a%40sarv.com-0E2A47?style=flat-square&logo=gmail&logoColor=white"/></a>
+  <a href="https://crawl.sarv.com"><img src="https://img.shields.io/badge/SarvCrawl-crawl.sarv.com-5CC8C8?style=flat-square"/></a>
 </p>
+
+---
 
 ## What I'm building
 
-**[SarvCrawl](https://crawl.sarv.com)** is Sarv's web crawler.
-<!-- TODO: one line on what you work on -->
+<p align="center">
+  <a href="https://crawl.sarv.com">
+    <img src="./assets/sarvcrawl-banner.svg" width="100%" alt="SarvCrawl"/>
+  </a>
+</p>
+
+<table>
+  <tr>
+    <td width="96" align="center">
+      <!-- Put Sarv's official logo at assets/sarv-logo.jpeg -->
+      <img src="./assets/sarv-logo.jpeg" width="72" alt="Sarv"/>
+    </td>
+    <td>
+      <b><a href="https://crawl.sarv.com">SarvCrawl</a></b> is Sarv's web crawler.<br/>
+      I work on the crawler, its browser extension, and the AI services around it.
+    </td>
+  </tr>
+</table>
+
+<!-- Optional: product screenshots. Drop PNGs/GIFs in assets/ and uncomment.
+<p align="center">
+  <img src="./assets/sarvcrawl-dashboard.png" width="49%"/>
+  <img src="./assets/sarvcrawl-demo.gif" width="49%"/>
+</p>
+-->
 
 ## Tech I use
 
-<!-- TODO: keep only what you actually use; full list at https://skillicons.dev -->
-<p>
-  <img src="https://skillicons.dev/icons?i=js,ts,react,nextjs,nodejs,python,docker,nginx,linux,git" />
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=python,ts,js,nodejs,docker,linux,gcp,postgres,redis,vscode,git&perline=11" />
 </p>
 
 ## GitHub stats
 
-<p>
-  <img height="160" src="https://github-readme-stats.vercel.app/api?username=sarvakshay&show_icons=true&hide_border=true" />
-  <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=sarvakshay&layout=compact&hide_border=true" />
+<p align="center">
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=sarvakshay&show_icons=true&count_private=true&hide_border=true&bg_color=0E2A47&title_color=5CC8C8&icon_color=5CC8C8&text_color=ffffff"/>
+  <img height="165" src="https://streak-stats.demolab.com?user=sarvakshay&hide_border=true&background=0E2A47&ring=5CC8C8&fire=5CC8C8&currStreakLabel=5CC8C8&sideLabels=ffffff&currStreakNum=ffffff&sideNums=ffffff&dates=A9C7E3"/>
 </p>
 
 ## Contribution snake
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/sarvakshay/sarvakshay/output/github-snake-dark.svg" />
-  <img alt="snake eating contributions" src="https://raw.githubusercontent.com/sarvakshay/sarvakshay/output/github-snake.svg" />
-</picture>
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/sarvakshay/sarvakshay/output/github-snake-dark.svg"/>
+    <img src="https://raw.githubusercontent.com/sarvakshay/sarvakshay/output/github-snake.svg" alt="snake eating contributions"/>
+  </picture>
+</p>
 
-3. Set up the snake (needs a GitHub Action)
-
-In the same repo, create the file .github/workflows/snake.yml:
-
-name: Generate snake
-
-on:
-  schedule:
-    - cron: "0 0 * * *"   # daily
-  workflow_dispatch:
-
-permissions:
-  contents: write
-
-jobs:
-  generate:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: Platane/snk@v3
-        with:
-          github_user_name: ${{ github.repository_owner }}
-          outputs: |
-            dist/github-snake.svg
-            dist/github-snake-dark.svg?palette=github-dark
-
-      - uses: crazy-max/ghaction-github-pages@v4
-        with:
-          target_branch: output
-          build_dir: dist
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-Then go to Actions → Generate snake → Run workflow once. That creates the output branch, and the snake image starts showing.
-
-Things to know
-
-- The stats and snake will look empty until you have some public activity. Your profile has no public repos yet. To count work in private repos, go to Settings → Public profile and turn on "Include private contributions on my profile."
-- Pinned repos (Aman's "Popular repositories") come from Customize your pins on the Overview tab.
-- The badge images come from free public services (readme-typing-svg, komarev, github-readme-stats). They're sometimes slow or rate-limited, so a broken image is usually their side, not your README.
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:5CC8C8,100:0E2A47&height=110&section=footer" width="100%"/>
